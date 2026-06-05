@@ -1,0 +1,27 @@
+.plan_box{
+    width: 375px;
+    height: 650px;
+    background-color: #080D27;
+    color: #EAEDFF;
+    list-style: none;
+    padding: 10px;
+    border-radius: 18px;
+    border-color: #334679;
+    border-right-color: #080D27;
+    border-width: 2px;
+    margin-top: 4%;
+    align-items: center;
+
+}
+
+.plan_middle_box{
+    width: 370px;
+    height: 750px;
+    background:linear-gradient(90deg,#1D2D6B,#151E48);
+    color: #EAEDFF;
+    list-style: none;
+    padding: 10px;
+    border-color: #1959AD;
+    border-radius: 18px;
+    border-width: 2px;
+}

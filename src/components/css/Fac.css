@@ -1,0 +1,38 @@
+.fac{
+    margin: 60px 60px;
+    color: #E2E7FC;
+}
+
+.fac_box{
+    width: 630px;
+    background-color: #080D28;
+    padding: 70px;
+    border-width: 2px;
+    border-color: #0B1739 ;
+    height: 900px;
+    padding-top: 100px;
+
+    
+}
+
+.Fac_list{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: #080D28;
+    padding-top: 6px;
+    margin-top: 35px;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #AFEA80;
+    background-color: #192865;
+}
+.Fac_list:hover{
+    border-color: #2EF2FF;
+    box-shadow: white;
+    box-shadow: 3px;
+    transition-duration: 1s;
+
+}
