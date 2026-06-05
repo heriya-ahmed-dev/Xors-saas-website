@@ -1,0 +1,21 @@
+
+
+.pricing{
+     text-align: center;
+     margin-top: 20px;
+     align-items: center;
+     padding-top: 20px;
+    background-image: url("../img/bg-outlines-fill.png");
+}
+
+
+.active{
+    border-width: 1px;
+   background: linear-gradient(120deg,#1C3A7E,#3367c1);
+   box-shadow: #577fc5;
+   transition: 0.5sec;
+}
+
+
+
+
