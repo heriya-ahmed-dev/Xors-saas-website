@@ -4,6 +4,9 @@ import Features from './Features.jsx';
 import Pricing from './Pricing.jsx';
 import Plan from './Plan.jsx';
 import Fac from './Fac.jsx';
+import Persons from './Persons.jsx';
+import Downolad from './Downolad.jsx';
+import Footer from './Footer.jsx';
 const Render = () => {
   return (
     <div>
@@ -12,7 +15,9 @@ const Render = () => {
         <Pricing/>
         <Plan/>
         <Fac/>
-      
+        <Persons/>
+        <Downolad/>
+        <Footer/>
     </div>
   )
 }
