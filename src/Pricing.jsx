@@ -1,7 +1,6 @@
 import React ,{useState} from 'react';
 import './components/css/pricing.css'
 import bgfirst from './components/css/img/bg-outlines-fill.png';
-
 const Pricing = () => {
      const [Active,setActive] = useState('monthly')
   return (

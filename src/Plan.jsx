@@ -25,10 +25,12 @@ const Plan = () => {
 
             
             />
+            <div className='m-4 pb-2'>
             <Button 
                text= 'GET STARTED'
                icon ={circle}
             />
+            </div>
         </div>
 
                           <div className='plan_middle_box'>
@@ -42,10 +44,14 @@ const Plan = () => {
                                      l3 = 'Unlimitted projects'
                                      l4 = 'Analytics'       
                                   />
+                                  <div className='m-4 pt-4'>
                                   <Button 
                                     text= 'GET STARTED'
                                     icon ={triangle}
+                  
+                                   
                                    />
+                                   </div>
                           </div>
 
 
@@ -62,10 +68,12 @@ const Plan = () => {
 
             
             />
+            <div className='m-5 pb-5'>
             <Button 
                text= 'GET STARTED'
                icon ={hexagon}
             />
+            </div>
         </div>
     </div>
   )
