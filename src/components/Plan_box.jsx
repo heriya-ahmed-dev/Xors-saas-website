@@ -13,9 +13,9 @@ const Plan_box = ({image,title,price,desc,l1,l2,l3,l4,int}) => {
           </button>
         </div>
         <p className='text-[70px] font-[600] px-[120px]'>{price}</p>
-        <p className='fs-4 font-[500] px-[50px] '>{desc}</p>
+        <p className='fs-4 font-[500] px-[55px] '>{desc}</p>
         <div>
-          <div className='d-flex ms-5 my-[4px] gap-[10px]'>
+          <div className='d-flex mg-fluid ms-5 my-[4px] gap-[10px]'>
             <img src={check} className='w-[50px]'/>
           <li className='mt-2'>{l1}</li>
           </div>

@@ -9,7 +9,7 @@ import './components/css/person.css'
 const Persons = () => {
   return (
     <main className='bg-[#080D27] person_box'>
-    <header className='d-flex jusify-content- between ms-5 mr-5 p-3 person_box'>
+    <header className='d-row d-md-flex jusify-content- between ms-5 mr-5 p-3 person_box'>
 
         <div className='w-[100%]'>
             <p className='fs-6 text-[#C8EA80] fw-bold ms-5 mb-0  mt-5 pt-5' >WALL OF LOVE</p>
@@ -40,8 +40,7 @@ const Persons = () => {
        
     </header>
     <section>
-         <header className='d-flex jusify-content- between ms-5 mr-5 p-3 person_box'>
-
+         <header className='d-row d-md-flex jusify-content- between ms-5 mr-5 p-3 person_box'>
         <div className='w-[100%]'>
             
         </div>
@@ -71,7 +70,7 @@ const Persons = () => {
        
     </header>
     </section>
-       <header className='d-flex jusify-content- between ms-5 mr-5 p-3 person_box'>
+       <header className='d-row d-md-flex jusify-content- between ms-5 mr-5 p-3 person_box'>
 
         <div className='w-[100%]'>
             

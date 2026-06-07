@@ -10,13 +10,13 @@ import './components/css/Feature.css'
 const Features = () => {
   return (
     <section>
-    <div className='d-flex justify-content-center'> 
-        <div className='w-[550px] feature_box'>
+    <div className='flex flex-col md:flex-row  justify-center'> 
+        <div className='w-[400px] md:w-[550px] m-5 md:m-0 feature_box'>
           <FeatureBox
             image = {feature1}
             header='EASY INTEGRATION'
             title = 'Work smarter not harder'
-            desc="With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters."
+            desc="With Xora, tedious tasks are history.Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters."
            />
              <Button 
              text='WATCH THE DEMO'
@@ -24,7 +24,7 @@ const Features = () => {
              />
        </div>
 
-               <div className='w-[550px] feature_box'>
+               <div className='w-[400px] md:w-[550px] m-5 md:m-0 feature_box'>
           <FeatureBox
             image = {feature1}
             header='SECURE & TRUSTWORTHY'

@@ -8,7 +8,7 @@ const Fac = () => {
        <p className='text-[23px] font-[430]'>You've got questions, we've got answers.</p>
     </header>
 
-    <section className='d-flex justify-content-center'>
+    <section className='d-row d-md-flex  justify-content-center'>
         <section className='fac_box'>
         <div className='d-flex justify-content-between h-[150px] '>
             <div>

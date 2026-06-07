@@ -24,4 +24,5 @@
     border-color: #1959AD;
     border-radius: 18px;
     border-width: 2px;
+    transform: translateY(-8px) scale(1.03);
 }

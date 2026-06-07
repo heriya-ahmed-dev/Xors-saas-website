@@ -14,6 +14,12 @@
 
     
 }
+@media (max-width:600px) {
+    .fac_box{
+        width: 500px;
+    }
+    
+}
 
 .Fac_list{
     width: 50px;

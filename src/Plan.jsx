@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react';
 import Plan_box from './components/Plan_box';
 import plan1 from './assets/images/plan-1.png';
 import plan2 from './assets/images/plan-2.png';
@@ -10,6 +11,8 @@ import hexagon from './assets/images/hexagon.svg';
 import './components/css/plan_box.css';
 
 const Plan = () => {
+   const [price,setPrice] = useState('');
+
   return (
     <div className='d-flex justify-content-center'>
         <div className='plan_box'>

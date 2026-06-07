@@ -12,17 +12,17 @@ const Pricing = () => {
             <div className='text-center '>
               
               
-               <button className='w-[350px] border-[1px] h-[85px] m-5 rounded-4'>
+               <button className='w-[300px] md:w-[350px] border-[1px] h-[70px] md:h-[85px] m-5 rounded-4'>
                     <div className='flex justify-content-between m-2'>
                        
                         <button
-                          className={`w-[160px] h-[70px] rounded-4 fs-5 font-[700] ${
+                          className={`w-[130px] md:w-[160px] h-[55px] md:h-[70] rounded-4 fs-5 font-[700] ${
                              Active === "monthly" ? "active" : ""
                                }`}
                        onClick={() => setActive("monthly")}
                                 > MONTHLY</button>
 
-                       <button className={`w-[160px]  h-[70px] rounded-4 fs-5 font-[700] ${ 
+                       <button className={`w-[130px] md:w-[160px]  h-[55px] md:h-[70] rounded-4 fs-5 font-[700] ${ 
                          Active === "Annual" ? "active" : " "}` }
                          onClick = {()=> setActive ("Annual")}>ANNUAL</button>
                     </div>
