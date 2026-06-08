@@ -1,6 +1,6 @@
 import React from 'react'
 import Render from './Render.jsx'
-import { Route,Routes,BrowserRouter } from 'react-router-dom'
+import { Route,Routes } from 'react-router-dom'
 import Downolad from './Downolad.jsx'
 import Pricing from './Pricing.jsx'
 import Features from './Features.jsx';
