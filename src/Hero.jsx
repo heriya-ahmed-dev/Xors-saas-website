@@ -33,7 +33,7 @@ const Hero = () => {
             <img src={magic} />
           </div>
         </div>
-       <section className='flex mt-0 pt-0 p-3 py-[20px]'>
+       <section className='flex mt-0 pt-0 p-3 py-[20px] hero_container'>
         <section className='w-[400px]'>
           <div>
             <p className='fs-6 text-[#C8EA80] fw-bold ms-5 mb-0  mt-5 pt-5' >VIDEO EDITING</p>

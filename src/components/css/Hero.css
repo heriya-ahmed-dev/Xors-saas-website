@@ -8,3 +8,9 @@
     display: none;
    }
 }
+.hero_container{
+    overflow-x: auto;
+    width: 100%;
+    scrollbar-width: none;
+
+}

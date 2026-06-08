@@ -26,3 +26,12 @@
     border-width: 2px;
     transform: translateY(-8px) scale(1.03);
 }
+
+.plan_container{
+    overflow-x: auto;
+    width: 100%;
+    scrollbar-width: none;
+     overflow-y: visible;
+     padding-top: 30px;
+
+}

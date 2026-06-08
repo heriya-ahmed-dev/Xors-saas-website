@@ -14,8 +14,8 @@ const Plan = () => {
    const [price,setPrice] = useState('');
 
   return (
-    <div className='d-flex justify-content-center'>
-        <div className='plan_box'>
+    <div className='d-flex justify-content-center plan_container'>
+        <div className='plan_box '>
             <Plan_box
               image={plan1}
               title='CORE'
@@ -36,7 +36,7 @@ const Plan = () => {
             </div>
         </div>
 
-                          <div className='plan_middle_box'>
+                          <div className='plan_middle_box '>
                                <Plan_box
                                      image={plan2}
                                      title='OVERDRIVE'
