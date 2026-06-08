@@ -14,10 +14,8 @@ const Render = () => {
         <Hero/>
         <Features/>
         <Pricing/>
-        <Plan/>
         <Fac/>
         <Persons/>
-        <Downolad/>
         <Downolad/>
         <Footer/>
      </>

@@ -7,7 +7,7 @@ import side1 from './assets/images/socials/x.svg';
 import {Link} from 'react-router-dom'
 const Hero = () => {
   return (
-    <div className='bg-[#080d27] text-light overflow-x-hidden'>
+    <div className='bg-[#080d27] text-light overflow-x-hidden pt-[130px]'>
        <section className='flex mt-0 pt-0 p-3 hero_container'>
         <section className='w-[400px]'>
           <div>

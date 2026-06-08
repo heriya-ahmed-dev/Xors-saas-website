@@ -9,8 +9,8 @@ import docs from './assets/images/docs.svg'
 import './components/css/Feature.css'
 const Features = () => {
   return (
-    <section>
-    <div className='flex flex-col md:flex-row  justify-center'> 
+    <section className='pt-[150px]'>
+    <div className='flex flex-col md:flex-row  justify-center '> 
         <div className='w-[400px] md:w-[550px] m-5 md:m-0 feature_box'>
           <FeatureBox
             image = {feature1}

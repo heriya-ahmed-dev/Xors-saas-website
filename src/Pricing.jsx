@@ -1,11 +1,12 @@
 import React ,{useState} from 'react';
 import './components/css/pricing.css'
 import bgfirst from './components/css/img/bg-outlines-fill.png';
+import Plan from './Plan';
 const Pricing = () => {
      const [Active,setActive] = useState('monthly')
   return (
     
-       <div className='py-[50px]'>
+       <div className='py-[50px] pt-[165px]'>
             <div className='pricing text-center'> 
             <p className='text-center text-[45px] font-[700]'>Flexible Pricing for<br/>teams of all sizes</p>
             </div>
@@ -30,6 +31,7 @@ const Pricing = () => {
 
 
             </div>
+              <Plan/>
        </div>
 
   )

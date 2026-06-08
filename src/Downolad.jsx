@@ -11,7 +11,7 @@ import screen from './assets/images/screen.jpg';
 const Downolad = () => {
   return (
     <div>
-      <header className=' bg-[#1A2658]'>
+      <header className='bg-[#1A2658] pt-[150px]'>
         <section className='d-flex jusify-content-between py-[90px]'>
       <section className='m-5' >
            <div>
