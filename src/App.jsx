@@ -1,13 +1,16 @@
 import React from 'react';
-import Render from './Render.jsx';
+import RenderEffect from './RenderEffect';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "tailwindcss";
+import { BrowserRouter } from 'react-router-dom';
+import Header from './Header.jsx';
 
 const App = () => {
   return (
     <div className='App_main text-light'>
-         <Render/>
+         <Header/>
+         <RenderEffect/>
     </div>
   )
 }

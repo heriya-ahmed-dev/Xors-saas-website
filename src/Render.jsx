@@ -7,9 +7,10 @@ import Fac from './Fac.jsx';
 import Persons from './Persons.jsx';
 import Downolad from './Downolad.jsx';
 import Footer from './Footer.jsx';
+import { Route , Routes } from 'react-router-dom';
 const Render = () => {
   return (
-    <div>
+      <>
         <Hero/>
         <Features/>
         <Pricing/>
@@ -17,9 +18,10 @@ const Render = () => {
         <Fac/>
         <Persons/>
         <Downolad/>
+        <Downolad/>
         <Footer/>
-    </div>
+     </>
   )
 }
 
-export default Render
+export default Render;
